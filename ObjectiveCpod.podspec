@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ObjectiveCpod"
-  s.version      = "1.0.0"
-  s.summary      = "A short description of ObjectiveCpod."
+  s.version      = "1.0.1"
+  s.summary      = "Used for add label"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+
+        This enable you to have a view controller wth label.
                    DESC
 
   s.homepage     = "https://github.com/pritikumbhar/ObjDemo"
@@ -93,7 +95,7 @@ Pod::Spec.new do |s|
 # s.source_files  = "Classes", "Classes/**/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
-s.source_files  = "PodDemo/*/{.h,.m}"
+s.source_files  = "PodDemo/*.{.h,.m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
